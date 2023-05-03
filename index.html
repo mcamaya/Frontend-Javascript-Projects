@@ -6,18 +6,40 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="main.js" defer></script>
    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1>Jugando con el DOM</h1>
-
-
-   <form>
-       <input id="calc1" placeholder="Escribe algo aquí...">
-       <input id="calc2" placeholder="Escribe algo aquí...">
-       <button id="btnCalc">Calcular</button>
-
-
-       <p id="result"></p>
-   </form>
+    <div class="menu">
+        <div class="tarjeta">
+            <div class="tajerta-img">
+                <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2022/11/galletas-de-chocolate-receta-facil.jpg" alt="">
+            </div>
+            <h3>Galletas</h3>
+            <h4>$9.00</h4>
+            <button id="btnGalletas">Añadir al carrito</button>
+        </div>
+        <div class="tarjeta">
+            <div class="tajerta-img">
+                <img src="https://cdn.vox-cdn.com/thumbor/rzEtsM3cyLURwJo3fT_kD7G61QM=/245x0:3266x2266/1400x788/filters:focal(245x0:3266x2266):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/48794543/soda-breakfast-g.0.0.jpg" alt="">
+            </div>
+            <h3>Soda</h3>
+            <h4>$5.00</h4>
+            <button id="btnSoda">Añadir al carrito</button>
+        </div>
+        <div class="tarjeta">
+            <div class="tajerta-img">
+                <img src="https://s1.eestatic.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg" alt="">
+            </div>
+            <h3>Café</h3>
+            <h4>$7.00</h4>
+            <button id="btnCafe">Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="carritoDeCompras">
+        <div class="carritoGalleta"></div>
+        <div class="carritoSoda"></div>
+        <div class="carritoCafe"></div>
+    </div>
 </body>
 </html>
