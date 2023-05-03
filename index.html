@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script src="main.js" defer></script>
-   <title>Document</title>
-   <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YardSale: Tu tienda online de confianza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
 </head>
 <body>
-   <h1>Jugando con el DOM</h1>
-    <div class="menu">
-        <div class="tarjeta">
-            <div class="tajerta-img">
-                <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2022/11/galletas-de-chocolate-receta-facil.jpg" alt="">
-            </div>
-            <h3>Galletas</h3>
-            <h4>$9.00</h4>
-            <button id="btnGalletas">Añadir al carrito</button>
-        </div>
-        <div class="tarjeta">
-            <div class="tajerta-img">
-                <img src="https://cdn.vox-cdn.com/thumbor/rzEtsM3cyLURwJo3fT_kD7G61QM=/245x0:3266x2266/1400x788/filters:focal(245x0:3266x2266):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/48794543/soda-breakfast-g.0.0.jpg" alt="">
-            </div>
-            <h3>Soda</h3>
-            <h4>$5.00</h4>
-            <button id="btnSoda">Añadir al carrito</button>
-        </div>
-        <div class="tarjeta">
-            <div class="tajerta-img">
-                <img src="https://s1.eestatic.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg" alt="">
-            </div>
-            <h3>Café</h3>
-            <h4>$7.00</h4>
-            <button id="btnCafe">Añadir al carrito</button>
-        </div>
+  <nav>
+    <img src="./icons/icon_menu.svg" alt="menu" class="menu">
+
+    <div class="navbar-left">
+      <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
+
+      <ul>
+        <li>
+          <a href="/">All</a>
+        </li>
+        <li>
+          <a href="/">Clothes</a>
+        </li>
+        <li>
+          <a href="/">Electronics</a>
+        </li>
+        <li>
+          <a href="/">Furnitures</a>
+        </li>
+        <li>
+          <a href="/">Toys</a>
+        </li>
+        <li>
+          <a href="/">Others</a>
+        </li>
+      </ul>
     </div>
-    <div class="carritoDeCompras">
-        <div class="carritoGalleta"></div>
-        <div class="carritoSoda"></div>
-        <div class="carritoCafe"></div>
+
+    <div class="navbar-right">
+      <ul>
+        <li class="navbar-email">platzi@example.com</li>
+        <li class="navbar-shopping-cart">
+          <img src="./icons/icon_shopping_cart.svg" alt="shopping cart">
+          <div>2</div>
+        </li>
+      </ul>
     </div>
+    <div class="inactive desktop-menu">
+        <ul>
+          <li>
+            <a href="/" class="title">My orders</a>
+          </li>
+    
+          <li>
+            <a href="/">My account</a>
+          </li>
+    
+          <li>
+            <a href="/">Sign out</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
 </body>
 </html>
