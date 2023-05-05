@@ -106,6 +106,10 @@ productList.push({
     name: 'Pulserita',
     price: 10,
     image: 'https://d3ugyf2ht6aenh.cloudfront.net/stores/804/588/products/90089511_218206199383636_6211461925032477471_n1-e056e2745c7e62045c15942250355368-640-0.webp'
+}, {
+    name: 'Gorros de natación',
+    price: 45,
+    image: 'https://cdn.coordiutil.com/imagen-gorro_de_natacion_piscina_en_silicona-1684087-0-0-0-100.jpg'
 });
 
 /* Estructura base que debemos construir con JS
