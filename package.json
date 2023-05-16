@@ -21,5 +21,6 @@
   "homepage": "https://github.com/mcamaya/Practicando-asincronismo-en-JS#readme",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
